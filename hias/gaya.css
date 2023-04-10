@@ -4,7 +4,8 @@
 
 .judul{height: 60px; padding-top:1px ;}
 
-.logo{float: left;  width: 10%; height: 60px;}
+.logo{background-image: url("gambar/mds logo.png");float: left;  width: 10%; height: 60px; }
+
 
 #isi ul li{list-style: none;display: block; border: none;height: 30px;}
 

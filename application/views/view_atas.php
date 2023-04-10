@@ -2,7 +2,7 @@
 <head>
     <link rel="shortcut icon" href="gambar/mds logo.png">
     <title>miniMds-semester 4</title>
-    <link rel="stylesheet" type="text/css" href="hias/gaya.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>hias/gaya.css">
 </head>
 <body id="badan">
     <div id="bungkusan">

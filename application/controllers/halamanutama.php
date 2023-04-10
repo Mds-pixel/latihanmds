@@ -1,15 +1,24 @@
 <?php
+defined('BASEPATH') or exit ('no direct script access allowed');
 class halamanutama extends CI_Controller
 {
-    public function index(){
-        $this->load->view('view_atas');
-        $this->load->view('view_depan');
-        $this->load->view('view_bawah');
-    }
+    function __construct()
+    { parent::__construct();
+        $this->load->helper('url');}
+
+        public function index(){
+            $data['judul'] = "Halamanutama";
+            $this->load->view('view_atas',$data);
+            $this->load->view('view_depan',$data);
+            $this->load->view('view_bawah',$data);
+        }
     
-    public function view_latihan3(){
-        $this->load->view('view_atas');
-        $this->load->view('view_latihan3');
-        $this->load->view('view_bawah');
+    
+
+        public function matkul(){
+        $data['judul'] = "Halaman form";
+        $this->load->view('view_atas',$data);
+        $this->load->view('view_form_matkul',$data);
+        $this->load->view('view_bawah',$data);
     }
 }
