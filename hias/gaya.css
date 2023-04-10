@@ -1,0 +1,17 @@
+#badan{background-color: aquamarine; width: 100%; }
+
+#bungkusan{width: 75%; height: 100%; background-color: aliceblue; margin:-1% 0% 0% 10%;}
+
+.judul{height: 60px; padding-top:1px ;}
+
+.logo{float: left;  width: 10%; height: 60px;}
+
+#isi ul li{list-style: none;display: block; border: none;height: 30px;}
+
+#isi ul a{text-decoration: none;}
+
+#isi ul a li:hover{list-style: none;display: block; border: none;height: 30px;  background: linear-gradient(#7fffd4,#183028 );}
+
+#isi ul a li:hover{text-decoration: none;color: aliceblue;}
+
+#bawah h3{text-align: center;box-shadow: 5px 9px 15px 0px black;}
