@@ -20,8 +20,7 @@ class halamanutama extends CI_Controller
         $this->load->view('view_atas',$data);
         $this->load->view('view_form_matkul',$data);
         $this->load->view('view_bawah',$data);
-        
 
-    
+        
 }
 }

@@ -5,5 +5,6 @@
                 <a href="latihan2"><li>Latihan 2 dengan controller</li></a>
                 <a href="latihan3"><li>Latihan 3 Dengan view,model , controller</li></a>
                 <a href="Matakuliah"><li>form matakuliah</li></a>
+                <a href="siswa"><li>form Siswa</li></a>
             </ul>
         </div>

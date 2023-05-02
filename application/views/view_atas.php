@@ -7,7 +7,7 @@
 <body id="badan">
     <div id="bungkusan">
         <div class="atas">
-            <div class="logo"> <img src="gambar/mds logo.png" style=" width: 100px; height: 70px;"></img></div>
+            <div class="logo"><a href="<?= base_url('Halamanutama'); ?>"> <img src="gambar/mds logo.png" style=" width: 100px; height: 70px;"></img></a></div>
             <div class="judul"><h1 style="text-align: center;">miniMds</h1></div>
             <hr size="5" noshade>
         </div>

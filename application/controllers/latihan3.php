@@ -2,8 +2,11 @@
 class latihan3 extends CI_Controller
 {
     public function index(){
-    echo"Selamat datang di miniMds . ini adalah page 3";
-    echo"Menggunakan model ,view ,controller";
+
+        $data['judul'] = "Halamanutama";
+        $this->load->view('view_atas',$data);
+        $this->load->view('view_latih3', $data);
+        $this->load->view('view_bawah',$data);
     }
 
     public function penjumlahan($angka1, $angka2){
@@ -12,6 +15,11 @@ class latihan3 extends CI_Controller
         $data['nilai2']=$angka2;
         $data['hasil']= $this->model_latihan3->jumlah($angka1, $angka2);
 
-        $this->load->view('view_latihan3', $data);
+        
+        $data['judul'] = "Halamanutama";
+                $this->load->view('view_atas',$data);
+                $this->load->view('view_latihan3', $data);
+                $this->load->view('view_bawah',$data);
+       
     }
 }
