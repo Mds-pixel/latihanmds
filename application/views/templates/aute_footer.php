@@ -1,11 +1,4 @@
-<div id="bawah">
-            <hr size="3" shade>
-            <h3>copyright Mds-pixel@2023</h3>
-        </div>
-            
-    </div>
-
-    <!-- Bootstrap core JavaScript-->
+<!-- Bootstrap core JavaScript-->
 <script src="<?= base_url('assets/'); 
 ?>vendor/jquery/jquery.min.js"></script>
 <script src="<?= base_url('assets/'); 
@@ -18,3 +11,4 @@
  $('.alert-message').alert().delay(3000).slideUp('slow');
 </script>
 </body>
+</html>

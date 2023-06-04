@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="shortcut icon" href="gambar/mds logo.png">
-    
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>hias/gaya.css">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>miniMds-semester 4</title>
+
+    <title>SB Admin 2 - Login</title>
+
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
@@ -17,13 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
 </head>
-<body id="badan">
-    <div id="bungkusan">
-        <div class="atas">
-            <div class="logo"><a href="<?= base_url('Halamanutama'); ?>"> <img src="gambar/mds logo.png" style=" width: 100px; height: 70px;"></img></a></div>
-            <div class="judul"><h1 style="text-align: center;">miniMds</h1></div>
-            <hr size="5" noshade>
-        </div>
-        
-      
+
+<body class="bg-gradient-primary">

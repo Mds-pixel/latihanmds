@@ -6,5 +6,6 @@
                 <a href="latihan3"><li>Latihan 3 Dengan view,model , controller</li></a>
                 <a href="Matakuliah"><li>form matakuliah</li></a>
                 <a href="siswa"><li>form Siswa</li></a>
+                <a href="Autentifikasi"><li>Login</li></a>
             </ul>
         </div>
